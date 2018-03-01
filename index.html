@@ -1,0 +1,535 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/> 
+<title>京东首页</title>
+<link rel="stylesheet" href="css/index.css" type="text/css"/>
+<!--<script>
+//针对移动端设备宽度的不同对字体进行不同的设置
+/*页面一加载就执行，不能等待页面加载完再执行，否则会出现页面闪烁效果*/
+var width = document.documentElement.clientWidth;
+if(width>=768){//设备宽度(页面宽度)>=768px ipad
+	document.documentElement.style.fontSize = "13px";
+}else if(width >= 414){//414px<=设备宽度<768px iphone 6 plus
+	document.documentElement.style.fontSize = "10px";
+}else if(width >= 375){//375px<=设备宽度<414px  iphone 6
+	document.documentElement.style.fontSize = "8px";
+}else{//设备宽度<375px  iphone 5
+	document.documentElement.style.fontSize = "6px";
+}
+</script>-->
+</head>
+<body>
+<div class="container">
+	<!--logo-->
+	<div class="banner">
+		<div class="banner_box">
+			<a href="#" class="jd_logo icon"></a>
+			<a href="#" class="search icon"></a>
+			<form action="#">
+				<input type="search"  placeholder="搜索"/>
+			</form>
+			<div class="login">
+				<a href="#">登录</a>
+			</div>
+		</div>
+	</div>
+	<!--photo-->
+	<ul class="img_ul clearfix">
+		<li><img src="images/1.jpg"/></li>
+		<li><img src="images/1.jpg"/></li>
+		<li><img src="images/1.jpg"/></li>
+		<li><img src="images/1.jpg"/></li>
+	</ul>
+	<div class="section_1 clearfix">
+		<div class="fl"><img src="images/s1_1.gif"/></div>
+		<div class="fl"><img src="images/s1_2.gif"/></div>
+		<div class="fl"><img src="images/s1_3.gif"/></div>
+	</div>
+	<div class="section_2">
+		<ul class="clearfix">
+			<li><a href="#"><img src="images/s2_1.png"/><p>京东超市</p></a></li>
+			<li><a href="#"><img src="images/s2_2.png"/><p>全球购</p></a></li>
+			<li><a href="#"><img src="images/s2_3.png"/><p>京东服饰</p></a></li>
+			<li><a href="#"><img src="images/s2_4.png"/><p>京东生鲜</p></a></li>
+			<li><a href="#"><img src="images/s2_5.png"/><p>京东到家</p></a></li>
+			<li><a href="#"><img src="images/s2_6.png"/><p>充值缴费</p></a></li>
+			<li><a href="#"><img src="images/s2_7.png"/><p>领京豆</p></a></li>
+			<li><a href="#"><img src="images/s2_8.png"/><p>领卷</p></a></li>
+			<li><a href="#"><img src="images/s2_9.png"/><p>赚钱</p></a></li>
+			<li><a href="#"><img src="images/s2_10.png"/><p>物流查询</p></a></li>
+		</ul>
+	</div>
+	<div class="section_3">
+		<ul class="clearfix">
+			<li><a href="#"><img src="images/s3_1.jpg"/></a></li>
+			<li><a href="#"><img src="images/s3_2.jpg"/></a></li>
+			<li><a href="#"><img src="images/s3_3.jpg"/></a></li>
+			<li><a href="#"><img src="images/s3_4.jpg"/></a></li>
+		</ul>
+	</div>
+	<div class="section_4">
+		<a href="#"><img src="images/s4.jpg"/></a>
+	</div>
+	<!--京东快报-->
+	<div class="section_5">
+		<ul class="clearfix">
+			<li class="fl"><a href="#"><img src="images/s5.png"/></a></li>
+			<li class="fl"><span>热</span><span>颜值微单看这两款就够了</span></li>
+			<li class="fr"><a href="#">更多</a></li>
+		</ul>
+	</div>
+	<!--京东秒杀-->
+	<div class="section_6">
+		<div>
+			<ul class="clearfix">
+				<li class="fl"><a href="#"><img src="images/s6_1.png"/></a></li>
+				<li class="fl"><strong>10点场</strong></li>
+				<li class="fl">
+					<ul class="clearfix">
+						<li><span>00</span></li>
+						<li><span>:</span></li>
+						<li><span>00</span></li>
+						<li><span>:</span></li>
+						<li><span>00</span></li>
+					</ul>
+					<!--<span>00</span><span>:</span><span>00</span><span>:</span><span>00</span>-->
+				</li>
+				<li class="fr"><span>抢iphoneX</span><a href="#"><img src="images/s6_2.png"/></a></li>
+			</ul>
+		</div>
+		<ul>
+			<li><a href="#"><img src="images/s6_3.jpg"/></a><p>&yen;1024</p><p>&yen;1024</p></li>
+			<li><a href="#"><img src="images/s6_4.jpg"/></a><p>&yen;980</p><p>&yen;980</p></li>
+			<li><a href="#"><img src="images/s6_5.jpg"/></a><p>&yen;640</p><p>&yen;640</p></li>
+			<li><a href="#"><img src="images/s6_6.jpg"/></a><p>&yen;640</p><p>&yen;640</p></li>
+		</ul>
+	</div>
+	<div class="section_7">
+		<a href="#"><img src="images/s7.gif"></a>
+	</div>
+	<div class="section_8">
+		<ul class="clearfix">
+			<li><a href="#"><img src="images/s8_1.jpg"/></a></li>
+			<li><a href="#"><img src="images/s8_2.jpg"/></a></li>
+			<li><a href="#"><img src="images/s8_3.jpg"/></a></li>
+			<li><a href="#"><img src="images/s8_4.jpg"/></a></li>
+		<ul>
+	</div>
+	<div class="section_9">
+		<ul class="clearfix">
+			<li><a href="#"><img src="images/s9_1.jpg"/></a></li>
+			<li><a href="#"><img src="images/s9_2.jpg"/></a></li>
+			<li><a href="#"><img src="images/s9_3.jpg"/></a></li>
+			<li><a href="#"><img src="images/s9_4.jpg"/></a></li>
+			<li><a href="#"><img src="images/s9_5.jpg"/></a></li>
+			<li><a href="#"><img src="images/s9_6.jpg"/></a></li>
+			<li>
+				<a href="#">
+					<img src="images/s9_7.jpg"/><img src="images/s9_7_0.jpg"/>
+				</a>
+			</li>
+			<li><a href="#"><img src="images/s9_8.jpg"/><img src="images/s9_12_0.jpg"/></a></li>
+			<li><a href="#"><img src="images/s9_9.jpg"/><img src="images/s9_8_0.jpg"/></a></li>
+			<li><a href="#"><img src="images/s9_10.jpg"/><img src="images/s9_9_0.jpg"/></a></li>
+			<li><a href="#"><img src="images/s9_11.jpg"/><img src="images/s9_10_0.jpg"/></a></li>
+			<li><a href="#"><img src="images/s9_12.jpg"/><img src="images/s9_8_0.jpg"/></a></li>
+		</ul>
+	</div>
+	<div class="section_10">
+		<ul class="clearfix">
+			<li><p><strong>闪购</strong></p><p>京东女神日大牌好物一折起</p><a href="#" class="clearfix"><img src="images/s10_1.jpg"/><img src="images/s10_2.jpg"/></a></li>
+			<li><p><strong>发现好货</strong></p><p>发现品质生活</p><a href="#"  class="clearfix"><img src="images/s10_3.jpg"/><img src="images/s10_4.jpg"/></a></li>
+			<li><p><strong>排行榜</strong></p><p>专属你的购物指南</p><a href="#"  class="clearfix"><img src="images/s10_5.jpg"/><img src="images/s10_6.jpg"/></a></li>
+			<li><p><strong>会买专辑</strong></p><p>教你买买买</p><a href="#"><img src="images/s10_7.jpg"/></a></li>
+			<li><p><strong>新品首发</strong></p><p>iphoneX</p><a href="#"><img src="images/s10_8.jpg"/></a></li>
+		<ul>
+	</div>
+	<div class="section_11 wd">
+		<img src="https://m.360buyimg.com/mobilecms/jfs/t4270/297/570405700/13314/a46c9b82/58b64705Nce641d00.jpg!q70.jpg"/>
+	</div>
+	<div class="section_12 wd">
+		<!--第一部分-->
+		<div class="s12_1 wd">
+			<div class="s12_1_left">
+				<p><strong>玩3C</strong></p>
+				<p>iphone 8 下单立减911元!</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t9025/138/1073742707/75556/e488be47/59bba94aN8995ff2e.png!q70.jpg"/>
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t10789/34/1623660030/77665/b927a891/59e41700N0542b898.png!q70.jpg"/>
+				</a>
+			</div>
+			<div class="s12_1_right">
+				<p><strong>京东家电</strong></p>
+				<p>冰洗直降，打白条12期免息!</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t9691/324/1902409092/14640/27683b8a/59e9d40cNa99ad5b7.jpg!q70.jpg"/>
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t10741/363/2198022532/13236/e0f0e55e/59f1c0acNf516c942.jpg!q70.jpg"/>
+				</a>
+				<a href="#" ><span>秒杀低至五折<img src="images/s6_2.png" /></span></a>
+			</div>
+		</div>
+		<!--第二部分-->
+		<div class="s12_1 wd">
+			<div class="s12_2_left">
+				<p><strong>京东超市</strong></p>
+				<p>选全球好物&nbsp;当然上京东超市</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/n1/jfs/t7351/5/3752470144/78863/454152bf/59f87d6dN2e6a9aa7.jpg!q70.jpg"/>
+					<img src="https://m.360buyimg.com/n1/jfs/t7330/227/4295238025/60026/913f5358/59f87d86N0d34e830.jpg!q70.jpg"/>
+				</a>
+				<a href="#" ><span>每满199减100<img src="images/s6_2.png" /></span></a>
+			</div>
+			<div class="s12_2_right">
+				<p><strong>爱家</strong></p>
+				<p>满199-100&nbsp;满399-200&nbsp;全品类</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t11593/189/416565467/59540/1f93e003/59efe76eN5587650d.jpg!q70.jpg"/>
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t7642/159/3068322460/35440/792b2ec6/59edcaeeN117dd6f7.jpg!q70.jpg"/>
+				</a>
+			</div>
+		</div>
+		<!--第三部分-->
+		<div class="s12_1 wd">
+			<div class="s12_3_1">
+				<p><strong>爱宝宝</strong></p>
+				<p>神劵798-300</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/n1/jfs/t7345/285/1663233404/169238/2c8b3484/599e7ef4Nd08a1e7c.jpg!q70.jpg"/>
+				</a>
+			</div>
+			<div class="s12_3_2">
+				<p><strong>爱美丽</strong></p>
+				<p>每满199-100</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t10099/364/2634182802/17270/c3b44145/59fb23c4N0e7e638e.jpg!q70.jpg"/>
+				</a>
+			</div>
+			<div class="s12_3_3">
+				<p><strong>爱吃</strong></p>
+				<p>领卷199-120</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t11911/4/814275343/41836/766c1953/59f8942aN88f7f8df.jpg!q70.jpg"/>
+				</a>
+			</div>
+			<div class="s12_3_4">
+				<p><strong>爱穿搭</strong></p>
+				<p>低至59元</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t11314/343/989712839/13779/f2985908/59fc3b51N74d03902.jpg!q70.jpg"/>
+				</a>
+				<a href="#" ><span>提前抢<img src="images/s6_2.png" /></span></a>
+			</div>
+		</div>
+	</div>
+	<div class="section13 wd">
+		<ul class="wd">
+			<li><a href="#"><img src="https://img1.360buyimg.com/da/jfs/t10888/263/2644172680/99457/4036fe2a/59fac626N2853a83d.jpg"/></a></li>
+		</ul>
+	</div>
+	<div class="section14 wd">
+		<img src="https://m.360buyimg.com/mobilecms/jfs/t6001/187/8772591725/44285/dbab5007/598c3eaaNcabae5fd.jpg!q70.jpg"/>
+	</div>
+	<div class="section15 wd">
+		<!--第一部分-->
+		<div class="s15_1 wd">
+			<div class="s15_1_left fl">
+				<p><strong>白条商城</strong></p>
+				<p><strong>打白条换新机&nbsp;游戏办公6飞起</strong></p>
+				<a href="#"><img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t7498/42/3504265210/19172/4f4a42b3/59f88e00Nfbc03de1.jpg!q70.jpg"/>
+				<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t11815/343/773029688/8507/ef3cd1b6/59f88e04N5370e517.jpg!q70.jpg"/></a>
+				<a href="#"><span>打白条就购~<img src="images/s6_2.png"/></span></a>
+			</div>
+			<div class="s15_1_middle fl">
+					<p><strong>京东众筹</strong></p>
+					<p><strong>5折限量秒杀</strong></p>
+					<a href="#"><img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t11266/230/421509837/22211/2ff2fa55/59efed60N0710df60.jpg!q70.jpg"/></a>
+			</div>
+			<div class="s15_1_right fl">
+					<p><strong>京东旅行</strong></p>
+					<p><strong>买车票送流量</strong></p>
+					<a href="#"><img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t11818/318/404047623/45074/33edcb44/59eff8a8Ncae136ba.jpg!q70.jpg"/></a>
+					<a href="#"><span>一折抢<img src="images/s6_2.png"/></span></a>
+			</div>
+		</div>
+		<!--第二部分-->
+		<div class="s15_2 wd btm_border">
+			<div class="s15_2_1 right_border">
+				<p><strong>智能生活</strong></p>
+				<p>智能电动车</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t10222/176/2646598866/61758/ccfd4b88/59fbffe4Nc1852244.jpg!q70.jpg"/>
+				</a>
+			</div>
+			<div class="s15_2_2 right_border">
+				<p><strong>陪伴宝宝</strong></p>
+				<p>199-100</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t10924/336/2429254736/94251/7ec00be6/59f6a88fN9cd4b8f2.png!q70.jpg"/>
+				</a>
+				<a href="#" ><span>一元抢<img src="images/s6_2.png" /></span></a>
+			</div>
+			<div class="s15_2_3 right_border">
+				<p><strong>特产扶贫</strong></p>
+				<p>9.9免邮</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t7909/189/3578911914/21040/5e3882fe/59fd7dafNe900e6ec.jpg!q70.jpg"/>
+				</a>
+				<a href="#" ><span>红富士<img src="images/s6_2.png" /></span></a>
+			</div>
+			<div class="s15_3_4 right_border">
+				<p><strong>爱车生活</strong></p>
+				<p>满299减150</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t11599/227/418842206/6687/7763465e/59efff08N0c648051.jpg!q70.jpg"/>
+				</a>
+			</div>
+		</div>
+		<!--第三部分-->
+		<div class="s15_2 wd btm_border">
+			<div class="s15_2_1 right_border">
+				<p><strong>大药房</strong></p>
+				<p>爱丽秒杀139</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t10234/170/2434643536/29917/d215582d/59f6c707N8ec46f32.jpg!q70.jpg">
+				</a>
+			</div>
+			<div class="s15_2_2 right_border">
+				<p><strong>设计师</strong></p>
+				<p>潮流设计精选</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t11194/178/819269809/8869/f028812a/59f973e3N14d58f6b.jpg!q70.jpg"/>
+				</a>
+			</div>
+			<div class="s15_2_3 right_border">
+				<p><strong>京东房产</strong></p>
+				<p>碧桂园特惠</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t10960/216/2120183203/86058/dd67b3d2/59ef0e37N1eae6d05.jpg!q70.jpg"/>
+				</a>
+			</div>
+			<div class="s15_2_4 right_border">
+				<p><strong>生活娱乐</strong></p>
+				<p>直降2000元</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t10591/147/2655781873/14622/fc0d9bd1/59fb2a55N807fbb30.jpg!q70.jpg"/>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="section_16 wd">
+		<img src="https://m.360buyimg.com/mobilecms/jfs/t7690/24/4380313711/169730/bac0197/59fc7958Ne398ba16.jpg!q70.jpg"/>
+	</div>
+	<div class="section_17 wd">
+		<img src="https://m.360buyimg.com/mobilecms/jfs/t7069/116/1578198469/38957/112b97ab/598c3f17Nf2541b06.jpg!q70.jpg"/>
+	</div>
+	<div class="section_18 wd">
+	<!--第一部分-->
+		<div class="s18_1 wd btm_border">
+			<div class="s18_1_1">
+				<p><strong>手机数码</strong></p>
+				<p>爆款一折秒杀</p>
+			</div>
+			<div class="s18_1_2 right_border">
+				<a href="#"><img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t11359/154/1091257880/18727/3497f8f5/59fd9f56N68df1893.jpg!q70.jpg"/></a>
+			</div>
+			<div class="s18_1_3">
+				<p><strong>时尚馆</strong></p>
+				<p>满799-200</p>
+			</div>
+			<div class="s18_1_right">
+				<a href="#"><img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t11017/346/945498282/37539/b98090ce/59fc194fN23c4df75.jpg!q70.jpg"/></a>
+			</div>
+		</div>
+	<!--第二部分-->
+		<div class="s18_1 wd btm_border">
+			<div class="s18_1_1">
+				<p><strong>大家电馆</strong></p>
+				<p>领劵减1000</p>
+			</div>
+			<div class="s18_1_2 right_border">
+				<a href="#"><img src="https://m.360buyimg.com/n1/jfs/t6475/226/2107256453/108947/e01cc435/595d9cf4N732a105e.jpg!q70.jpg"/></a>
+			</div>
+			<div class="s18_1_3">
+				<p><strong>个户清洁</strong></p>
+				<p>满199减100</p>
+			</div>
+			<div class="s18_1_right">
+				<a href="#"><img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t5131/193/590214959/19467/155e612a/5902a18eNf84157b1.png!q70.jpg"/></a>
+			</div>
+		</div>
+	<!--第三部分-->
+		<div class="s18_3 wd btm_border">
+			<div class="s18_3_1 right_border">
+				<p><strong>美食城</strong></p>
+				<p>3件7折</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/n1/jfs/t3124/79/4494052906/477829/4d1623f3/584e0089N72084b4c.jpg!q70.jpg"/>
+				</a>
+			</div>
+			<div class="s18_3_2 right_border">
+				<p><strong>电脑办公</strong></p>
+				<p>白条三期免息</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t11065/257/771090372/32537/afc806ad/59f83440Ne5e1c464.png!q70.jpg"/>
+				</a>
+			</div>
+			<div class="s18_3_3 right_border">
+				<p><strong>鞋靴箱包</strong></p>
+				<p>低至5折</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t7558/345/4018351798/23348/2e6a5040/59f1a3a2N5d678e3a.jpg!q70.jpg"/>
+				</a>
+			</div>
+			<div class="s18_3_4 right_border">
+				<p><strong>小家电馆</strong></p>
+				<p>2件8.5折</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/n1/jfs/t9613/43/1328198777/265628/e7fc96bc/59e097cdNdf028185.jpg!q70.jpg"/>
+				</a>
+			</div>
+		</div>
+	<!--第四部分-->
+		<div class="s18_3 wd btm_border">
+			<div class="s18_3_1 right_border">
+				<p><strong>京东生鲜</strong></p>
+				<p>领卷199减80</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t11800/76/839488447/57137/368be22d/59f9d426N46f549eb.jpg!q70.jpg"/>
+				</a>
+			</div>
+			<div class="s18_3_2 right_border">
+				<p><strong>医药保健</strong></p>
+				<p>领卷99减40</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t11095/228/931635214/20013/4ca03604/59fbc9faNd076cc56.jpg!q70.jpg"/>
+				</a>
+			</div>
+			<div class="s18_3_3 right_border">
+				<p><strong>图书音像</strong></p>
+				<p>满199减100</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t11275/289/578448225/37894/9c5ddaeb/59f34b5eNc960a443.jpg!q70.jpg"/>
+				</a>
+			</div>
+			<div class="s18_3_4 right_border">
+				<p><strong>母婴馆</strong></p>
+				<p>熊孩子来淘货</p>
+				<a href="#">
+					<img src="https://m.360buyimg.com/mobilecms/s240x240_jfs/t7516/134/2068531536/18906/84593984/59a7d506Nfa832633.jpg!q70.jpg"/>
+				</a>
+				<a href="#"><span>爆款低至5折<img src="images/s6_2.png"/></span>
+			</div>
+		</div>
+	</div>
+	<div class="section_16 wd">
+		<img src="https://m.360buyimg.com/mobilecms/jfs/t7390/165/4009572640/211353/f50d40f2/59fc85c6N43da255c.jpg!q70.jpg"/>
+	</div>
+	<div class="line wd">
+		<div class="line_top">
+			<span>为您推荐</span>
+		</div>
+		<div class="line_bottom"></div>
+	</div>
+	<!--S=产品部分-->
+	<div class="product_1 wd clearfix">
+		<div class="product_1_left">
+			<a href="#"><img src="https://m.360buyimg.com//mobilecms/s276x276_jfs/t6511/69/984669562/139877/2742a1c8/59487793Nf2bde0e2.jpg!q70.jpg"/></a>
+			<p>三星（SAMSUNG） GALAXY S8/S8+手机 双曲屏 面部识别虹膜 智能手机 幻紫S8 (4GB+64GB)港版双卡全网通4G</p>
+			<p><span>&yen;4388</span><span>.00</span></p>
+			<p><span class="fl">好评率93%</span><span class="fr all_border">看相似</span></p>
+		</div>
+		<div class="product_1_right">
+			<a href="#"><img src="https://m.360buyimg.com//mobilecms/s276x276_jfs/t9610/268/384802225/306829/7998e05/59ce0fecN801a281d.jpg!q70.jpg"/></a>
+			<p>烟花烫秋冬装新款女装简洁百搭打底针织蕾丝长袖连衣裙  悦颖 粉红色 </p>
+			<p><span>&yen;1288</span><span>.88</span></p>
+			<p class="clearfix"><span class="fl">好评率95%</span><span class="fr all_border">看相似</span></p>
+		</div>
+	</div>
+	<div class="product_1 wd clearfix">
+		<div class="product_1_left">
+			<a href="#"><img src="https://m.360buyimg.com//mobilecms/s276x276_jfs/t7810/270/1445925106/327313/83d3ad5d/599cecb0Nc2d250c3.jpg!q70.jpg"/></a>
+			<p>烟花烫2017新款女装气质绣花衬衫上衣+半身裙套装 织云 红色 L</p>
+			<p><span>&yen;3388</span><span>.70</span></p>
+			<p><span class="fl">好评率92%</span><span class="fr all_border">看相似</span></p>
+		</div>
+		<div class="product_1_right">
+			<a href="#"><img src="https://m.360buyimg.com//mobilecms/s276x276_jfs/t11287/193/929182661/548295/20c6d802/59fbdcf1N322a8954.jpg!q70.jpg"/></a>
+			<p>飞创 苹果x钢化膜iPhone6s/7/8 Plus/10手机膜非全屏覆盖防爆玻璃贴膜 5.8英寸【iPhone X专用】高清款 </p>
+			<p><span>&yen;24</span><span>.00</span></p>
+			<p class="clearfix"><span class="fl">好评率99%</span><span class="fr all_border">看相似</span></p>
+		</div>
+	</div>
+	<div class="product_1 wd clearfix">
+		<div class="product_1_left">
+			<a href="#"><img src="https://m.360buyimg.com//mobilecms/s276x276_jfs/t9913/65/2539484727/244694/56096fc1/59fa778bNf2274eba.jpg!q70.jpg"/></a>
+			<p>亿色(ESR) iPhone8 Plus/7Plus/6s Plus钢化膜 苹果8Plus/7plus/6sPlus钢化膜 非全屏覆盖高清玻璃手机贴膜</p>
+			<p><span>&yen;12</span><span>.90</span></p>
+			<p><span class="fl">好评率80%</span><span class="fr all_border">看相似</span></p>
+		</div>
+		<div class="product_1_right">
+			<a href="#"><img src="https://m.360buyimg.com//mobilecms/s276x276_jfs/t5989/160/4165014832/46711/9d16a7d1/595dea96N72af5ecd.jpg!q70.jpg"/></a>
+			<p>睿尔贝 24V36V电动车电动滑板车迷你电瓶车电动车折叠电动车代步雷热无刷迷你电动车 10寸选色+加装报警器补拍 24V250W无刷蓄电池</p>
+			<p><span>&yen;2999</span><span>.99</span></p>
+			<p class="clearfix"><span class="fl">好评率84%</span><span class="fr all_border">看相似</span></p>
+		</div>
+	</div>
+	<div class="product_1 wd clearfix">
+		<div class="product_1_left">
+			<a href="#"><img src="https://m.360buyimg.com//mobilecms/s276x276_jfs/t7321/137/818085545/173814/64faf624/5997a3fdN3d48fb01.jpg!q70.jpg"/></a>
+			<p>童装夏装2017新款女童雪纺连衣裙儿童露肩公主裙子中大童韩版吊带背心裙潮 灰色 150码建议身高140cm</p>
+			<p><span>&yen;59</span><span>.90</span></p>
+			<p><span class="fl">好评率91%</span><span class="fr all_border">看相似</span></p>
+		</div>
+		<div class="product_1_right">
+			<a href="#"><img src="https://m.360buyimg.com//mobilecms/s276x276_jfs/t3199/28/668143004/87742/ef88f481/57bd3007Na7dd506f.jpg!q70.jpg"/></a>
+			<p>清风（APP）卷纸 新韧纯品 3层270段卫生纸*10卷（新老包装交替发货）</p>
+			<p><span>&yen;16</span><span>.90</span></p>
+			<p class="clearfix"><span class="fl">好评率83%</span><span class="fr all_border">看相似</span></p>
+		</div>
+	</div>
+	<!--E=产品部分-->
+	<div class="continue_load wd">
+		<div><a href="#">点击继续加载</a></div>
+	</div>
+	<!--S=footer-->
+	<div class="footer wd">
+		<div>
+			<ul class="clearfix">
+				<li><a href="#">登录</a></li>
+				<li><a href="#">注册</a></li>
+				<li><a href="#">反馈</a></li>
+				<li><a href="#">回到顶部</a></li>
+			</ul>
+		</div>
+		<div>
+			<ul class="clearfix">
+				<li><a href="#" class="icon"></a><p>客户端</p></li>
+				<li><a href="#" class="icon"></a><p>触屏版</p></li>
+				<li><a href="#" class="icon"></a><p>电脑版</p></li>
+			</ul>
+		</div>
+		<div>
+			<span>Copyright&copy;2004-2017京东JD.com&nbsp;版权所有</span>
+		</div>
+	</div>
+	<!--E=footer-->
+</div>
+</body>
+<script>
+//针对pc端缩放时改变字体的大小
+window.onresize = function(){
+	console.log(document.documentElement.clientWidth);
+	if(document.body.clientWidth>=768){
+		document.documentElement.style.fontSize = "13px";
+	}else if(document.body.clientWidth>=414){
+		document.documentElement.style.fontSize = "10px";
+	}else if(document.body.clientWidth>=375){
+		document.documentElement.style.fontSize = "8px";
+	}else{
+		document.documentElement.style.fontSize = "6px";
+	}
+}
+</script>
+</html>
